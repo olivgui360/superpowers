@@ -35,6 +35,8 @@ With GitHub Copilot's new Agent Skills feature (December 2025), you can now use 
 
 ## Quick Start
 
+**New to Superpowers?** See [../.github/QUICKSTART.md](../.github/QUICKSTART.md) for a 5-minute getting started guide.
+
 ### Installation
 
 ```bash
@@ -288,8 +290,6 @@ Skills contributions welcome!
 2. Create a skill following `skills/writing-skills/SKILL.md`
 3. Test with GitHub Copilot, Claude Code, or both
 4. Submit a pull request
-
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
 
 ## License
 

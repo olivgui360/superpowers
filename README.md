@@ -48,7 +48,7 @@ Enable in VSCode settings:
 }
 ```
 
-**Detailed docs:** [docs/README.vscode.md](docs/README.vscode.md) | [.github/INSTALL.md](.github/INSTALL.md)
+**Quick start:** [.github/QUICKSTART.md](.github/QUICKSTART.md) | **Detailed docs:** [docs/README.vscode.md](docs/README.vscode.md) | [.github/INSTALL.md](.github/INSTALL.md)
 
 ### Claude Code (via Plugin Marketplace)
 
