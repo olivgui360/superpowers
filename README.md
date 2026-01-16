@@ -2,6 +2,8 @@
 
 Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
 
+**Now available for:** Claude Code, GitHub Copilot (VSCode), Codex, and OpenCode
+
 ## How it works
 
 It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. 
@@ -26,7 +28,27 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code has a built-in plugin system. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Each platform has optimized integration methods.
+
+### GitHub Copilot in VSCode (via Agent Skills)
+
+In your project directory:
+
+```bash
+mkdir -p .github
+git clone https://github.com/obra/superpowers.git .github/superpowers-repo
+ln -s .github/superpowers-repo/skills .github/skills
+```
+
+Enable in VSCode settings:
+
+```json
+{
+  "github.copilot.chat.useSkills": true
+}
+```
+
+**Quick start:** [.github/QUICKSTART.md](.github/QUICKSTART.md) | **Detailed docs:** [docs/README.vscode.md](docs/README.vscode.md) | [.github/INSTALL.md](.github/INSTALL.md)
 
 ### Claude Code (via Plugin Marketplace)
 
