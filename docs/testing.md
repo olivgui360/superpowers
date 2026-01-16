@@ -158,7 +158,7 @@ ls -lt "$SESSION_DIR"/*.jsonl | head -5
 
 ### What It Shows
 
-- **Main session usage**: Token usage by the coordinator (you or main Claude instance)
+- **Main session usage**: Token usage by the coordinator (you or main agent instance)
 - **Per-subagent breakdown**: Each Task invocation with:
   - Agent ID
   - Description (extracted from prompt)

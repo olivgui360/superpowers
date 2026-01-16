@@ -15,6 +15,8 @@ This is not negotiable. This is not optional. You cannot rationalize your way ou
 
 **In Claude Code:** Use the `Skill` tool. When you invoke a skill, its content is loaded and presented to you—follow it directly. Never use the Read tool on skill files.
 
+**In GitHub Copilot (VS Code):** Skills auto-load based on context from `.github/skills/`. You don't need to explicitly invoke them.
+
 **In other environments:** Check your platform's documentation for how skills are loaded.
 
 # Using Skills

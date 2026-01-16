@@ -57,6 +57,8 @@ description: Use when [triggering conditions]
 
 ## Tool Mapping
 
+GitHub Copilot handles skills differently from Claude Code:
+
 | Claude Code | GitHub Copilot |
 |-------------|----------------|
 | Skill tool | Auto-discovery |
